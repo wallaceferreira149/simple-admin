@@ -1,0 +1,19 @@
+{
+  "name": "simple-admin-project",
+  "private": true,
+  "author": "Wallace Ferreira",
+  "description": "A simple admin project fullstack powereb by NextJs and NestJs. Yarn workspace integration",
+  "homepage": "YOUR_GIT_REPO_URL",
+  "engines": {
+    "node": ">=18.16.0",
+    "yarn": ">=1.22.5",
+    "npm": "please use yarn"
+  },
+  "workspaces": [
+    "api",
+    "web"
+  ],
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0"
+  }
+}
